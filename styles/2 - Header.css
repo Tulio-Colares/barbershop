@@ -1,0 +1,45 @@
+header {
+    padding: 15px 10%;
+    background-color: black;
+    color: white;
+}
+
+.ul-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    align-items: center;
+}
+
+.a-logo {
+    font-family: 'Spicy Rice', serif;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu>li {
+    margin: 0 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.tel {
+    display: flex;
+}
+
+.tel img {
+    width: 15px;
+    margin-right: 5px;
+}
