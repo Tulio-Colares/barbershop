@@ -1,0 +1,43 @@
+.home {
+    display: flex;
+}
+
+.description {
+    min-width: 40%;
+    padding: 25vh 10%;
+    color: white;
+    /* A imagem de fundo acima não está aparecendo. Porque? */
+    background-image: url("images\imagens\subcapa.jpg");
+}
+
+.description h1 {
+    text-align: center;
+    font-family: 'Spicy Rice', serif;
+    font-size: 50px;
+    margin: 15px;
+    text-shadow: 5px 1px black;
+}
+
+.description p {
+    margin: 15px 0;
+    line-height: 23px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.description button {
+    height: 46px;
+    background-color: rgb(255, 90, 14);
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+    font-family: 'Spicy Rice', serif;
+    border-radius: 8px;
+    width: 17vw;
+}
+
+.imagem-home img {
+    height: 80vh;
+    width: auto;
+}
+
