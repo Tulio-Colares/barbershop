@@ -6,8 +6,8 @@
     min-width: 40%;
     padding: 25vh 10%;
     color: white;
-    /* A imagem de fundo acima não está aparecendo. Porque? */
-    background-image: url("images\imagens\subcapa.jpg");
+    /* A imagem de fundo abaixo não está aparecendo. Porque? */
+    background-image: url("./styles/images/imagens/subcapa.jpg");
 }
 
 .description h1 {
@@ -25,19 +25,11 @@
     font-size: 18px;
 }
 
-.description button {
-    height: 46px;
-    background-color: rgb(255, 90, 14);
-    color: white;
-    text-shadow: 2px 1px black;
-    font-size: 20px;
-    font-family: 'Spicy Rice', serif;
-    border-radius: 8px;
-    width: 17vw;
-}
-
 .imagem-home img {
     height: 80vh;
     width: auto;
 }
 
+.services-container>.agendamento {
+    margin: 45px auto;
+}
