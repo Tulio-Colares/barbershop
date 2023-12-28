@@ -1,0 +1,78 @@
+.contact {
+    background-color: rgb(20, 20, 20);
+    margin: 10vh 0 0;
+    padding: 10vh 0 5vh;
+}
+
+.contactContainer {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contato {
+    width: 1050px;
+    width: 50%;
+    padding: 0 10px 0 10px;
+}
+
+.contato>h2 {
+    text-align: center;
+}
+
+.contactForm input, textarea {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.contactForm input {
+    height: 31px;
+}
+
+.contactForm textarea {
+    padding-top: 5px;
+}
+
+.contato>.agendamento {
+    height: 35px;
+    font-size: 20px;
+    margin: 0 auto;
+    /* Não consigo centralizar o botão! */
+}
+
+.schedules {
+    width: 50%;
+}
+
+.socialMedia {
+    padding: 0 10px 0 10px;
+}
+
+.socialMedia>h2 {
+    text-align: center;
+}
+
+.symbols {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.symbols img {
+    height: 30px;
+}
+
+.phones img {
+    height: 15px;
+}
+
+.phones p {
+    color: white;
+    display: block;
+}
+
+#whatsapp {
+    background-color: rgb(2, 184, 69);
+}

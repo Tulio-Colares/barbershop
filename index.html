@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="styles/2 - Header.css">
     <link rel="stylesheet" href="styles/3 - Home.css">
     <link rel="stylesheet" href="styles/4 - Services.css">
+    <link rel="stylesheet" href="styles/5 - About.css">
+    <link rel="stylesheet" href="styles/6 - Contact.css">
+    <link rel="stylesheet" href="styles/7 - Footer.css">
 </head>
 <body>
 
@@ -23,7 +26,7 @@
       <ul class="ul-header">
         <div class="logo">
           <li>
-            <a href="#" class="a-logo"><img src="C:\Users\tulio\OneDrive\Coding\Projetos Pessoais\Projetos pessoais\barbershop\styles\images\icones\El-Bigodón-Logo.png"></a>
+            <a href="#" class="a-logo"><img src="styles\images\icones\El-Bigodón-Logo.png"></a>
           </li>
         </div>
         <div class="menu">
@@ -31,9 +34,10 @@
           <li><a href="#">Serviços</a></li>
           <li><a href="#">Fotos</a></li>
           <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
         </div>
         <div class="tel">
-          <img  src="C:\Users\tulio\OneDrive\Coding\Projetos Pessoais\Projetos pessoais\barbershop\styles\images\icones\Whatsapp.png">
+          <img  src="styles\images\icones\Whatsapp.png">
           <li>
             (85) 9999-9999
           </li>
@@ -52,8 +56,9 @@
           corrupti ab ad saepe, necessitatibus asperiores obcaecati iure.</p>
         <button class="agendamento">Fazer agendamento online</button>
       </div>
+
       <div class="imagem-home">
-        <img src="C:\Users\tulio\OneDrive\Coding\Projetos Pessoais\Projetos pessoais\barbershop\styles\images\imagens\Capa1.jpg">
+        <img src="styles\images\imagens\Capa1.jpg">
       </div>
     </div>
 
@@ -101,6 +106,87 @@
       
       
     </div>
+
+    <!-- About -->
+    <div class="about">
+      <div class="aboutUs">
+        <h2>Sobre Nós</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Voluptas, molestias repellat! Accusamus ipsa quibusdam consectetur 
+          suscipit error. Maiores obcaecati adipisci dolorum eos nostrum, enim 
+          mollitia.</p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae 
+          non, deleniti odit totam id aspernatur dicta optio! Aut tempora recusandae
+           minus, illum quam asperiores minima, veritatis rem, voluptas odio velit.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem sed 
+          pariatur ducimus, quasi incidunt tempora optio iure quisquam ipsam vitae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odit 
+          reiciendis laborum aperiam adipisci ut amet rem cupiditate suscipit 
+          possimus.</p>
+        
+        
+      </div>
+
+      <section class="slider">
+        <h2>Galeria de Fotos</h2>
+        <input name='slide' type="radio">
+        <input name='slide' type="radio" checked>
+        <input name='slide' type="radio">
+        <input name='slide' type="radio">
+    
+        <div class="slider-content">
+            <div class="slider-item"><img src="styles/images/imagens/carrossel1.jpg"></div>
+            <div class="slider-item"><img src="styles/images/imagens/carrossel2.jpg"></div>
+            <div class="slider-item"><img src="styles/images/imagens/carrossel3.jpg"></div>
+            <div class="slider-item"><img src="styles/images/imagens/subcapa.jpg"></div>
+        </div>
+      </section>
+    </div>
+
+
+  <!-- Contact Us -->
+  <div class="contact">
+    
+    <div class="contactContainer">
+      <div class="contato">
+        <h2>Formulário de Contato</h2>
+        <form class="contactForm">
+          <input type="text" placeholder="Nome">
+          <input type="email" placeholder="E-mail">
+          <textarea name="Mensagem" placeholder="Mensagem" rows="10"></textarea>
+        </form>
+        <button class="agendamento">Enviar</button>
+      </div>
+
+      <div class="schedules">
+        <div class="socialMedia">
+          <h2>Redes Sociais e Agendamentos</h2>
+          <div class="symbols">
+            <img  src="styles\images\icones\Whatsapp.png">
+            <img  src="styles\images\icones\Whatsapp.png">
+            <img  src="styles\images\icones\Whatsapp.png">
+            <img  src="styles\images\icones\Whatsapp.png"><br/><br/>
+          </div>
+          <div class="phones">
+            <p><img  src="styles\images\icones\Whatsapp.png">(85) 0000-0000 (Unidade Aldeota)</p><br/>
+            <p><img  src="styles\images\icones\Whatsapp.png">(85) 0000-0000 (Unidade Sul)</p><br/>
+            <p><img  src="styles\images\icones\Whatsapp.png">contato@elbigodon.com</p><br/>
+            <button class="agendamento">Fazer Agendamento Online</button>
+            <button class="agendamento" id="whatsapp">Falar Agora no Whatsapp</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <footer>
+    Túlio Colares. Nenhum direito reservado
+  </footer>
 
 </body>
 </html>

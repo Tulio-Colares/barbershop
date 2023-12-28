@@ -1,0 +1,56 @@
+.about {
+    border: 1px solid white;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aboutUs {
+    border: 1px solid red;
+    width: 50%;
+}
+
+.aboutUs>h2 {
+    text-align: center;
+}
+
+.aboutUs>p {
+    color: white;
+    margin: 0 15px 10px;
+}
+
+.slider>h2 {
+    text-align: center;
+}
+
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}

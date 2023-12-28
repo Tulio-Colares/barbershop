@@ -1,6 +1,6 @@
 .container {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .services {
@@ -50,3 +50,4 @@ img {
     height: 100px;
     margin-right: 10px;
 }
+
