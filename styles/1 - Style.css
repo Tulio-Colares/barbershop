@@ -11,7 +11,7 @@ body {
 
 .agendamento {
     height: 56px;
-    background-color: rgb(255, 90, 14);
+    background-color: #f15025;
     color: white;
     text-shadow: 2px 1px black;
     font-size: 23px;
@@ -25,3 +25,21 @@ body {
     transform: scale(1.1);
     transition: all 0.3S ease-in-out;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Duvidas
+1-Em home, como colocar a subcapa de fundo?
+2-No Header, como definir a navegação para exatamente o ponto que eu quero?
+3-No botão de agendamento, como fazer a transição ser suave quando eu RETIRO 
+    o mouse?
+4-Na galeria de fotos, as fotos não estão aparecendo
+5-No modo responsivo, em home, como fazer o texto SUBIR 
+    à medida em que a largura de tela diminui?
+6-Porque o tamanho das letras diminui quando eu vario o tamanho da tela?
+7-Centralizar as seções no modo responsivo
+8-Como deixar o botão responsivo?
+
+*/

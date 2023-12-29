@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px) {
+    /* Header */
+    header {
+        padding: 10px;
+    }
+    
+    /* Home */
+    .home {
+        align-items: center;
+    }
+
+    .imagem-home {
+        margin-top: 180px;
+        width: 100vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    .ul-header {
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 30px;
+    }
+
+    /* Home */
+
+    .description {
+        padding: 5vh 10%;
+    }
+    
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    /* Services */
+    .container {
+        border: 1px solid red;
+        align-self: center;
+    }
+
+    .services {
+        border: 1px solid white;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-content: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .services-card {
+        align-self: center;
+        padding: 5vh;
+    }
+
+    /* About */
+    .about {
+        flex-direction: column;
+        padding: 0 5vw;
+    }
+
+    .aboutUs {
+        width: 100%;
+        margin: 5vh 0;
+    }
+
+    /* Contact  */
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contato, .schedules {
+        border: 1px solid white;
+        margin: 5vh;
+    }
+
+    .socialMedia {
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        
+    }
+
+}
+
