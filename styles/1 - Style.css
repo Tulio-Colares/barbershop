@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+/* section{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+} */
+
 body {
     background-color: rgb(59, 59, 59);
 }
@@ -23,7 +28,7 @@ body {
 .agendamento:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: all 0.3S ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 html {
@@ -31,11 +36,11 @@ html {
 }
 
 /*Duvidas
-1-Em home, como colocar a subcapa de fundo?
-2-No Header, como definir a navegação para exatamente o ponto que eu quero?
+1-Em home, como colocar a subcapa de fundo? - Ok
+2-No Header, como definir a navegação para exatamente o ponto que eu quero? - Ok
 3-No botão de agendamento, como fazer a transição ser suave quando eu RETIRO 
-    o mouse?
-4-Na galeria de fotos, as fotos não estão aparecendo
+    o mouse? 
+4-Na galeria de fotos, as fotos não estão aparecendo 
 5-No modo responsivo, em home, como fazer o texto SUBIR 
     à medida em que a largura de tela diminui?
 6-Porque o tamanho das letras diminui quando eu vario o tamanho da tela?

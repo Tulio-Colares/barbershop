@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     /* Header */
     header {
         padding: 10px;
@@ -17,35 +17,49 @@
 
 }
 
+/* rem, em, % */
 
-@media screen and (max-width: 768px) {
+
+@media (max-width: 768px) {
+
+   
     /* Header */
     .ul-header {
+        display: flex;
         flex-direction: column;
     }
 
     .menu {
-        margin: 30px;
+        /* margin: 30px; */
+        padding: 0.5rem;
     }
+
 
     /* Home */
 
-    .description {
+    section .home{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+    /* .description {
         padding: 5vh 10%;
-    }
+    } */
     
-    .home {
-        flex-direction: column-reverse;
-    }
+    
 
     /* Services */
     .container {
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        margin: 0 auto;
         align-self: center;
     }
 
     .services {
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
     .services-container {
@@ -62,6 +76,9 @@
 
     /* About */
     .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding: 0 5vw;
         

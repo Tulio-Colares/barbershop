@@ -5,10 +5,13 @@
 
 .description {
     min-width: 40%;
+    height: 40%;
     padding: 25vh 10%;
     color: white;
     /* A imagem de fundo abaixo não está aparecendo. Porque? */
-    background-image: url("styles/images/imagens/subcapa.jpg");
+    background-image: url("./images/imagens/subcapa.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .description h1 {
@@ -33,5 +36,5 @@
 }
 
 .services-container>.agendamento {
-    margin: 45px auto;
+    margin: 2rem auto;
 }
